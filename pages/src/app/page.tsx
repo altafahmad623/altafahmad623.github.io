@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from "next/image";
 import { useState, useEffect, useMemo } from "react";
+import Link from 'next/link';
 
 const Navbar: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -52,6 +53,12 @@ const Navbar: React.FC = () => {
             >
               Projects
             </a>
+            <Link
+              href="/blogs"
+              className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition cursor-pointer"
+            >
+              Blogs
+            </Link>
             <a
               onClick={() => scrollToSection('contact')}
               className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition cursor-pointer"

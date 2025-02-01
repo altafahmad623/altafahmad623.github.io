@@ -36,10 +36,18 @@ const blogPosts: Record<string, BlogPost[]> = {
   ],
   "Personal": [
     {
+      title: "Why I Love Cooking: A Journey from Roti Belna to Biryani",
+      description: "A personal story about discovering passion for cooking and how it parallels with programming.",
+      category: "Lifestyle",
+      date: "February 1, 2025",
+      readTime: "10 min read",
+      link: "/blogs/cooking-journey"
+    },
+    {
       title: "My Journey from Math to Software Engineering",
       description: "Personal reflection on transitioning from mathematics to software development.",
       category: "Career",
-      date: "March 1, 2024",
+      date: "January 21, 2025",
       readTime: "6 min read",
       link: "/blogs/math-to-swe"
     }
